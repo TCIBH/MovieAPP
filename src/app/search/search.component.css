@@ -1,0 +1,13 @@
+.movie-item {
+    margin: 20px;
+  }
+  
+  .movie-item img {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .movie-item h3 {
+    text-align: center;
+    color: #fff;
+  }

@@ -1,0 +1,19 @@
+.movie-row {
+    color: #fff;
+    margin: 20px 0;
+  }
+  
+  .movie-posters {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .movie-poster {
+    margin-right: 10px;
+  }
+  
+  .movie-poster img {
+    width: 150px;
+    border-radius: 5px;
+  }
+  

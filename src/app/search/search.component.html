@@ -1,0 +1,10 @@
+<div>
+    <input [(ngModel)]="query" (keyup.enter)="searchMovies()" placeholder="Search for movies...">
+    <button (click)="searchMovies()">Search</button>
+  </div>
+  <div *ngIf="searchResults.length">
+    <div *ngFor="let movie of searchResults" class="movie-item">
+      <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="{{movie.title}}">
+      <h3>{{ movie.title }}</h3>
+    </div>
+  </div>
